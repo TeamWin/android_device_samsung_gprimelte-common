@@ -179,8 +179,7 @@ BOARD_PROVIDES_LIBRIL := false
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-include vendor/cm/sepolicy/sepolicy.mk
-include vendor/cm/sepolicy/qcom/sepolicy.mk
+include vendor/omni/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
     device/samsung/gprimelte-common/sepolicy
