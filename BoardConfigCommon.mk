@@ -3,7 +3,7 @@ FORCE_32_BIT := true
 LOCAL_PATH := device/samsung/gprimelte-common
 
 # Inherit from common
--include device/samsung/qcom-common/BoardConfigCommon.mk
+#-include device/samsung/qcom-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -94,7 +94,7 @@ EXTENDED_FONT_FOOTPRINT := true
 #TARGET_NO_RPC := true
 
 # Healthd
-BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
+BOARD_HAL_STATIC_LIBRARIES := libhealthd
 
 #ART
 # Dex
